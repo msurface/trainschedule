@@ -2,12 +2,12 @@ $(document).ready(function(){
     //initialize firebase API
     //firebase website isn't working?
     var config = {
-        apiKey: ,
-        authDomain: " ",
-        databaseURL: " ",
-        projectId: " ",
-        storageBucket: " ",
-        messagingSenderId: " ",
+        apiKey: "AIzaSyBuVrCJC2q4lDpb7Z7ZWi43MJ80iFIIDhA",
+        authDomain: "choochoo-8b703.firebaseapp.com",
+        databaseURL: "https://choochoo-8b703.firebaseio.com",
+        projectId: "choochoo-8b703",
+        storageBucket: "choochoo-8b703.appspot.com",
+        messagingSenderId: "160597458377",
     };
     firebase.initializeApp(config);
 
