@@ -21,7 +21,7 @@
             <div class="panel panel-primary">
                 <div class="panel-heading">Current Train Schedule</div>
                 <div class="panel-body">
-                    <table class="table table-hover">
+                    <table class="table table-hover" id="train-table">
                         <thead>
                             <tr>
                                 <th>Train Name</th>
@@ -57,11 +57,16 @@
                                 <label for="frequency">Frequency (min)</label>
                                 <input type="frequency" class="form-control" id="frequency">
                             </div>
-                            <button type="submit" class="btn btn-default" id="submit">Submit</button>
+                            <button type="submit" class="btn btn-default" id="submit-button">Submit</button>
                         </form>
                 </div>
             </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="moment.js"></script>
+    <!--need to add firebase here when the website is working-->
+    <script src="assets/javascript/javascript.js"></script>
+
     
 </body>
 </html>
